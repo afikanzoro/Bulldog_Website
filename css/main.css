@@ -9,12 +9,12 @@
 /* Add a black background color to the top navigation */
 .topnav{
   position: relative;
-  background-color: #333;
+  background-color: #4CAF50;
   overflow: hidden;
-}
+} 
 
 /* Style the links inside the navigation bar */
-.topnav a{
+.topnav {
   float: none;
   color: #f2f2f2;
   text-align: center;
@@ -26,8 +26,8 @@
 /* Change the color of links on hoover */
 
 .topnav a:hoover {
-  background-color: #DDD;
-  color: black;
+  background-color: yellow;
+  color: purple;
 }
 
 /* Add a color to the active current/current link */
@@ -35,15 +35,6 @@
   background-color: #4CAF50;
   color: white;
 }
-
-/* Centering top navigation */
-.topnav-center a{
-  float: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  }
 
 /* Initializing footer */
 footer{
